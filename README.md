@@ -1,16 +1,22 @@
-# code_convertor
+# GPT Code Convertor
 
-A new Flutter project.
+A simple web application built using Flutter and OpenAI’s gpt-3.
 
-## Getting Started
+### Steps to run the code
 
-This project is a starting point for a Flutter application.
+- Create an account on [https://openai.com/](https://beta.openai.com/)
+- Generate APIKEY and copy it
+- Clone the repo
+- Paste the API KEY in make_request.dart. Path given below
 
-A few resources to get you started if this is your first Flutter project:
+```dart
+lib/services/make_request.dart
+```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- Run
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```dart
+flutter pub get
+
+flutter run
+```
